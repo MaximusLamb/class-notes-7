@@ -87,3 +87,40 @@ function Hotel(name, rooms, booked) {
 
 # Domain Modeling
 * Domain modeling is the process of creating a conceptual model in code for a specific problem.
+
+# Tables
+```html
+<table></table>
+```
+* The table element is used to create a table.  The contents of the table are written out row by row.
+```html
+<tr></tr>
+```
+* You indicate the start of each row using the opening tr tag. **The tr stands for table row**
+```html
+<td></td>
+```
+* Each cell of a table is represented using a td element.
+```html
+<th></th>
+```
+* The th element is used just like the td element but its purpose is to represent the heading for either a column or a row.
+
+### colspan
+* The colspan attribute is used on a th or td element and indicates how many columns that cell should run across.
+### rowspan
+* The rowspan attribute is used on a th or td element and indicates how many columns that cell should run up and down.
+
+# Long Tables
+```html
+<thead></thead>
+```
+* The headings of the table sit inside this element.
+```html
+<tbody></tbody>
+```
+* The body should sit inside this element.
+```html
+<tfoot></tfoot>
+```
+* The footer belongs inside of this element.
